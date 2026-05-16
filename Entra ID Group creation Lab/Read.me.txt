@@ -1,0 +1,106 @@
+# Lab: Perform Basic Group Management Tasks
+
+**Estimated time:** 15 minutes  
+**Objective:** Explore tasks for creating and managing groups in Microsoft Entra ID.
+
+---
+
+## Task 1 - Create a Microsoft 365 Group
+
+1. Open the **Microsoft Entra admin center** at [https://entra.microsoft.com](https://entra.microsoft.com) and sign in with your tenant administrator credentials.
+
+2. In the left navigation menu, select **Groups** > **All groups**.
+
+3. Click **+ New group**.
+
+4. Fill in the following information:
+
+| Field              | Value                                                                 |
+|--------------------|-----------------------------------------------------------------------|
+| Group type         | **Microsoft 365**                                                     |
+| Group name         | **Project23**                                                         |
+| Group description  | This group consists of members of the new AI Simulation software with codename Project23 |
+| Membership type    | **Assigned**                                                          |
+
+5. Under **Members**, click **No member selected**.
+
+6. Search for and select **Bhogeswar Kalita**, then click **Select**.
+
+7. Click **Create** at the bottom of the page.
+
+
+**Screenshots:**
+![Group-Creation](screenshots/Group-Creation.png)
+![Group-Creation](screenshots/Group-Creation-Groups.png)
+---
+
+## Task 2 - Create a Security Group 
+
+1. Go back to **Groups** > **All groups**.
+
+2. Click **+ New group**.
+
+3. Fill in the following information:
+
+| Field                    | Value                                                      |
+|--------------------------|------------------------------------------------------------|
+| Group type               | **Security**                                               |
+| Group name               | **TestUser**                                            |
+| Group description        | This group has all the Guest users currently in the tenant. |
+| Membership type          | **Assigned**                                           |
+
+
+
+4. Click **Save** at the top, then click **Create**.
+
+
+5. Click **Refresh** on the All groups page.
+
+**Screenshots**
+![TestUser] (Screenshots/TestUser.png)
+
+---
+
+## Task 3 - Add an Existing User to a Group
+
+### Primary Method
+
+1. Go to **Groups** > **All groups**.
+
+2. Open the **Project23** group.
+
+3. Select **Members** in the left menu.
+
+4. Click **+ Add members**.
+
+5. Search for and select **User**, then click **Select**.
+
+
+---
+
+## Task 4 - Add Owners to a Group
+
+1. Go to **Groups** > **All groups** and open the **Project23** group.
+
+2. In the left menu, select **Owners**.
+
+> **Note:** The tenant administrator is automatically added as an owner if no owner is specified.
+
+3. Click **+ Add owners**.
+
+4. Search for and select **Bhogeswar Kalita**, then click **Select**.
+
+5. Verify that the new owner appears in the Owners list.
+
+**Screenshots**
+![Add owner to a Group] (Screenshots/Add-owner-to-the-group.png)
+
+---
+
+**Lab Complete!**
+
+You have successfully:
+- Created a Microsoft 365 group
+- Created a Security group
+- Added members using two different methods
+- Assigned group owners
