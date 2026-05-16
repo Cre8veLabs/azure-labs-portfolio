@@ -11,7 +11,7 @@ This repository contains step-by-step labs and documentation of my work with Mic
 ### User Management
 - [x] Single User Creation (Manual)
 - [x] Bulk User Creation using CSV
-- [ ] Group Creation & Management
+- [x] Group Creation & Management
 - [ ] Role Assignments
 
 ### Next Labs (Planned)
