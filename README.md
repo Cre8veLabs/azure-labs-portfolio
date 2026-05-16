@@ -2,7 +2,7 @@
 
 **Date:** 15 May 2026  
 **Tenant Name:** marlonozlive843.onmicrosoft.com  
-**Student Name:** Marlon Guedes de Waeckerle
+**Owner:** Marlon Guedes de Waeckerle
 
 ## Objective
 Create a single user manually and then perform a bulk user creation using a CSV file.
