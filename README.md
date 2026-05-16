@@ -33,7 +33,7 @@ Create a single user manually and then perform a bulk user creation using a CSV 
 - User appeared in the Users list
 - Could successfully sign in with the temporary password
 
-See folder **Entra ID Lab documentation - Screenshot:**
+See folder **Entra ID Lab documentation - Screenshots:**
 
 ![User Creation and Details](screenshots/Single-User-Creation.png)
 
@@ -56,7 +56,7 @@ See folder **Entra ID Lab documentation - Screenshot:**
 4. Uploaded the completed CSV file
 5. Clicked **Create** and waited for the processing to finish
 
-6. See Folder**Entra ID Lab documentation - Screenshot:**
+6. See Folder**Entra ID Lab documentation - Screenshots:**
 
 ![BulkUser Creation and Details](screenshots/BulkUser-Creation.png)
 
