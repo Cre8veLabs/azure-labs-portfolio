@@ -73,18 +73,20 @@ Create a single user manually and then perform a bulk user creation using a CSV 
 
 ---
 
-Basic Powershel commands 
-# 1. Connect to Microsoft Graph (run this first)
+Basic Powershel Script Create User
+# 1. Connect to Microsoft Graph
 Connect-MgGraph -Scopes "User.ReadWrite.All", "Directory.ReadWrite.All"
 
 # 2. Create the user
-New-MgUser -DisplayName "John Doe" `
-           -UserPrincipalName "john.doe@marlonozlive843.onmicrosoft.com" `
-           -MailNickname "john.doe" `
-           -PasswordProfile @{ 
-               Password = "TempPassword123!" 
-               ForceChangePasswordNextSignIn = $true 
-           } `
-           -AccountEnabled $true `
-           -GivenName "John" `
-           -Surname "Doe"
+New-MgUser `
+    -DisplayName "Bhogeswar Kalita" `
+    -UserPrincipalName "bhogeswar.kalita@marlonozlive843.onmicrosoft.com" `
+    -MailNickname "bhogeswar.kalita" `
+    -GivenName "Bhogeswar" `
+    -Surname "Kalita" `
+    -PasswordProfile @{
+        Password = "Qugo196098"
+        ForceChangePasswordNextSignIn = $false
+    } `
+    -AccountEnabled $true `
+    -UsageLocation "CH"          # Switzerland
