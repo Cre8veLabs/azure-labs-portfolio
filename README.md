@@ -12,9 +12,9 @@ This repository contains step-by-step labs and documentation of my work with Mic
 - [x] Single User Creation (Manual)
 - [x] Bulk User Creation using CSV
 - [x] Group Creation & Management
-- [ ] Password protection Tasks
-- [ ] SelfService Password reset (SSPR)
-- [ ] Perform Multifactor Authentication tasks
+- [x] Password protection Tasks
+- [x] SelfService Password reset (SSPR)
+- [x] Perform Multifactor Authentication tasks
 - [ ] Conditional Access Policies
 
 ### Next Labs (Planned)
