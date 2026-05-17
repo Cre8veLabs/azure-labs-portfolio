@@ -15,7 +15,7 @@ This repository contains step-by-step labs and documentation of my work with Mic
 - [x] Password protection Tasks
 - [x] SelfService Password reset (SSPR)
 - [x] Perform Multifactor Authentication tasks
-- [ ] Conditional Access Policies
+- [x] Conditional Access Policies
 
 ### Next Labs (Planned)
 
